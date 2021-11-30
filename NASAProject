@@ -1,20 +1,3 @@
-This project is broken down into five main parts:
-
-The first part: COMPLETED 
-obtain a NASA API key at: https://api.nasa.gov/ 
-
-The second part: COMPLETED
-browse the APIs: got to https://api.nasa.gov/#browseAPI and then click on "Mars Rover Photos". Explore the various examples to understand the parameter that you can use with that specific API
-
-The third part: (confused about routing)
-Create a user interface that allows users to filter and search through images. At least 2 search criteria (e.g. date, the camera on rover) should be used
-
-The fourth part: (Have not started)
-Users need to sign up to access the Web pages of the Web application. In this milestone, you should also complete the coding for handling the data from the Web service.
-
-The fifth part: (Have not started)
-Users can access the Web pages of the application only after logging in
-
 The only piece of code I have that actually works is something I took from a youtube tutorial github link on have to make a search bar which would be the page users enter a date or camera on the rover. 
 
 <!DOCTYPE html>
