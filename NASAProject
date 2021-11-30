@@ -1,0 +1,46 @@
+This project is broken down into five main parts:
+
+The first part: COMPLETED 
+obtain a NASA API key at: https://api.nasa.gov/ 
+
+The second part: COMPLETED
+browse the APIs: got to https://api.nasa.gov/#browseAPI and then click on "Mars Rover Photos". Explore the various examples to understand the parameter that you can use with that specific API
+
+The third part: (confused about routing)
+Create a user interface that allows users to filter and search through images. At least 2 search criteria (e.g. date, the camera on rover) should be used
+
+The fourth part: (Have not started)
+Users need to sign up to access the Web pages of the Web application. In this milestone, you should also complete the coding for handling the data from the Web service.
+
+The fifth part: (Have not started)
+Users can access the Web pages of the application only after logging in
+
+The only piece of code I have that actually works is something I took from a youtube tutorial github link on have to make a search bar which would be the page users enter a date or camera on the rover. 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NASA API Search</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+    NASA Mars Rover API image Search
+    </h1>
+    <input id="searchTerm" type="text" placeholder="YYYY-MM-DD" />
+    <button id="search">
+      Search
+    </button>
+    <div id="content">
+      
+    </div>
+  </body>
+</html
